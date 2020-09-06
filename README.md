@@ -1,7 +1,7 @@
 # SUTEX
 > Learning in New dimension
 
-## seeded credentials
+## Seeded Credentials
 ###### admin login details
 * id - parvg555
 * password- parvgupta
