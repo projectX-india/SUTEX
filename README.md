@@ -7,7 +7,11 @@ Most of the existing portals are lacking in some of the very important features 
 
 ## seeded credentials
 ###### admin login details
-id - parvg555
-password- parvgupta
+* id - parvg555
+* password- parvgupta
 
 ## getting started
+* Run this app on apache server using phpmyadmin and localhost
+* open phpmyadmin and create a database called 'lms'
+* edit the credentials in database.php
+* woah! you are ready to go!
