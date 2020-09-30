@@ -9,7 +9,7 @@ extract($_SESSION);
 extract($_GET);
 extract($_POST);
 //remove you
-if($_SESSION['admin_id']=="yo"){
+if($_SESSION['admin_id']==""){
 	echo'<h4>please login to continue</h4>';
 	echo'<a href="index.php">login</a>';
 	exit();
