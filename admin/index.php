@@ -66,7 +66,8 @@ if ($_SESSION['admin_id']){
                     <h2 class="contact-title"> ADMIN Login</h2>
                 </div>
                 <div class="col-lg-8">
-                    <form class="form-contact contact_form" action="login.php" method="post" >
+			<!-- change the method of get to post-->
+                    <form class="form-contact contact_form" action="login.php" method="get" >
                         <div class="row">
                             <div class="col-12">
                                 <div class="form-group">
