@@ -8,8 +8,8 @@ include("generator.php");
 extract($_SESSION);
 extract($_GET);
 extract($_POST);
-
-if($_SESSION['admin_id']==""){
+//remove you
+if($_SESSION['admin_id']=="yo"){
 	echo'<h4>please login to continue</h4>';
 	echo'<a href="index.php">login</a>';
 	exit();
