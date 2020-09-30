@@ -1,9 +1,5 @@
 <?php
 
-//remove comment from lines below
-//session_start();
-//error_reporting(1);
-
 include("../database.php");
 include("generator.php");
 
@@ -17,11 +13,6 @@ if($_SESSION['admin_id']==""){
 	exit();
 }
 
-//echo "admin_id = ".$admin_id."<br>";
-//$class = encrypt("parv","teachergroup1");
-//echo "encrypted text- ".$class."<br>";
-//$decrypted = decrypt("parv",$class);
-//echo "decrypted text - ".$decrypted."<br>";
 $id=$_GET['id'];
 $rs2=mysqli_query($con,"select * from waiting_teacher where waiting_id = '$id'") or die("error rs2");
 $row = $rs2->fetch_assoc();
