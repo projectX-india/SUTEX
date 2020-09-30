@@ -67,7 +67,7 @@ if ($_SESSION['admin_id']){
                 </div>
                 <div class="col-lg-8">
 			<!-- change the method of get to post-->
-                    <form class="form-contact contact_form" action="login.php" method="get" >
+                    <form class="form-contact contact_form" action="login.php" method="post" >
                         <div class="row">
                             <div class="col-12">
                                 <div class="form-group">
