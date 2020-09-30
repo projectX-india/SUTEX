@@ -1,5 +1,6 @@
 <?php
 session_start();
-session_destroy();
+//change the spelling of sesion to session
+sesion_destroy();
 header("location:index.php");
 ?>
