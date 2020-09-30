@@ -4,10 +4,10 @@ session_start();
 
 include("../database.php");
 include("generator.php");
-
-extract($_SESSION);
-extract($_GET);
-extract($_POST);
+//remove comment
+//extract($_SESSION);
+//extract($_GET);
+//extract($_POST);
 
 if($_SESSION['admin_id']==""){
 	echo'<h4>please login to continue</h4>';
