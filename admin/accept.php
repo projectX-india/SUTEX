@@ -1,6 +1,8 @@
 <?php
-session_start();
-error_reporting(1);
+
+//remove comment from lines below
+//session_start();
+//error_reporting(1);
 
 include("../database.php");
 include("generator.php");
