@@ -46,23 +46,24 @@
 		<div class="wrapper d-flex align-items-stretch">
 			<nav id="sidebar">
 				<div class="p-4 pt-5">
-		  		<a href="#" class="img logo rounded-circle mb-5" style="background-image:url('assets/img/logo.png');"></a>
-	        <ul class="list-unstyled components mb-5">
-	          <li >
-	            <a href="/teacher">Teacher's login</a>
-	          <li>
-              <a href="/student">Student's login</a>
+		  			<a href="#" class="img logo rounded-circle mb-5" style="background-image:url('assets/img/logo.png');"></a>
+	        			<ul class="list-unstyled components mb-5">
+	          				<li >
+	            					<a href="/teacher">Teacher's login</a>
+						</li>
+	          				<li>
+              					<a href="/student">Student's login</a>
               
-	          </li>
-              <li>
-              <a href="/admin">Admin's login</a>
-              </li>
-	        </ul>
+	          				</li>
+              					<li>
+              						<a href="/admin">Admin's login</a>
+              					</li>
+	        			</ul>
 
 	        
 
-	      </div>
-    	</nav>
+	      			</div>
+    			</nav>
 
         <!-- Page Content  -->
       <div id="content" class="p-4 p-md-5">
