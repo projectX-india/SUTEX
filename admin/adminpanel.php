@@ -1,13 +1,13 @@
 <?php
 session_start();
-//error_reporting(1);
+error_reporting(1);
 
 include("../database.php");
 include("generator.php");
 //remove comment
-//extract($_SESSION);
-//extract($_GET);
-//extract($_POST);
+extract($_SESSION);
+extract($_GET);
+extract($_POST);
 
 if($_SESSION['admin_id']==""){
 	echo'<h4>please login to continue</h4>';
