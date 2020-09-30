@@ -8,7 +8,7 @@ extract($_POST);
 
 if(isset($submit)){
     $rs = mysqli_query($con, "select * from admin where admin_username='$admin_username' and admin_password='$admin_password'");
-
+    //change the greater then sign to less then
     if (mysqli_num_rows($rs)>1){
         header("location:index.php?login=false");
     }else{
