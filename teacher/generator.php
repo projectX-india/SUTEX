@@ -1,6 +1,6 @@
 <?php
-
-function encrypt($pswd, $text)
+//write function before encrypt
+ encrypt($pswd, $text)
 {
 	// change key to lowercase for simplicity
 	$pswd = strtolower($pswd);
