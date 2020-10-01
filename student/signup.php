@@ -1,9 +1,7 @@
 <?php
-//line 5 
 session_start();
 error_reporting(1);
-//oops i misspelled include
-ilude("../database.php");
+include("../database.php");
 
 extract($_SESSION);
 extract($_POST);
