@@ -1,4 +1,5 @@
 <?php
+//line 145
 session_start();
 error_reporting(1);
 include("../database.php");
@@ -141,7 +142,8 @@ if($_SESSION['student_id']=="" || $_SESSION['student_group']==""){
             <div class=\"properties properties2 mb-30\">
                 <div class=\"properties__card\">
                     <div class=\"properties__img overlay1\">
-                        <a href=\"classroom.php?sid=$subjectid\"><img src=\"../assets/img/gallery/featured1.png\"></a>
+		    	//make it <a href=>
+                        <a=\"classroom.php?sid=$subjectid\"><img src=\"../assets/img/gallery/featured1.png\"></a>
                     </div>
                     <div class=\"properties__caption\">
                         <p><a href=\"classroom.php?sid=$subjectid\">".$row[1]."</a></p>   
