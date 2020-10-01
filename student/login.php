@@ -1,11 +1,9 @@
 <?php
 session_start();
-//Line number 8
 include("../database.php");
 
 extract($_POST);
-//make it "if(isset($submit)){" 
-(isset($submit)){
+if(isset($submit)){
     $rs = mysqli_query($con,"select * from student where student_username = '$student_username' and student_password = '$student_password'");
 
 
